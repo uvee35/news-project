@@ -24,7 +24,8 @@ Before you begin, ensure you have met the following requirements:
 
 ## Mock- Up
 
-![Uploading New York Times Article Search.gif…]()
+![New York Times Article Search (1)](https://github.com/uvee35/news-project/assets/151088688/2d65d4f1-5310-4460-90e3-4e89ec3b4bca)
+
 
 ## Usage
 
