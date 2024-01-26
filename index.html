@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New York Times Article Search</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        background-color: #f2f2f2;
+      }
+      .navbar {
+        background-color: #333;
+        margin-bottom: 20px;
+      }
+      .navbar-brand {
+        color: white !important;
+      }
+      .card {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+      }
+      .card-header,
+      .card-footer {
+        background-color: #333;
+        color: white;
+      }
+      .btn-outline-dark {
+        width: 49%;
+      }
+      .footer {
+        text-align: center;
+        padding: 20px 0;
+      }
+    </style>
+  </head>
+  
+  
+  
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark">
+      <span class="navbar-brand mb-0 h1 mx-auto">New York Times Search</span>
+    </nav>
+
+    <!-- Form -->
+    
+    <div class="container">
+      <div class="card">
+        <div class="card-header">Search Parameters</div>
+        <div class="card-body">
+          <form id="search-form">
+            <div class="form-group">
+              <label for="search-term">Search Term:</label>
+              <input type="text" class="form-control" id="search-term" />
+            </div>
+            <div class="form-group">
+              <label for="num-records-select"
+                >Number of Records to Retrieve:</label
+              >
+              <select class="form-control" id="num-records-select">
+                <option>1</option>
+                <option>5</option>
+                <option>10</option>
+                
+              </select>
+        
+           <div class="form-group">
+    <label for="start-date">Start Date (Optional):</label>
+    <input type="date" class="form-control" id="start-date" name="start-date">
+</div>
+<div class="form-group">
+    <label for="end-date">End Date (Optional):</label>
+    <input type="date" class="form-control" id="end-date" name="end-date">
+</div>
+
+
+            <button type="submit" class="btn btn-primary btn-outline-dark">
+              Search
+            </button>
+            <button type="reset" class="btn btn-secondary btn-outline-dark">
+              Clear Results
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">Top Articles</div>
+        <div class="card-body" id="article-section">
+        </div>
+      </div>
+    </div>
+
+
+      <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <span>Made with lots and lots of ❤️</span>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+
+    <!-- Bootstrap and jQuery scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
