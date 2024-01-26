@@ -9,6 +9,12 @@ This project is a simple web application that allows users to search for article
 - Display a list of articles with titles, snippets, bylines, and publication dates.
 - Responsive design using Bootstrap.
 
+## Mock- Up
+https://uvee35.github.io/news-project/
+
+![New York Times Article Search](https://github.com/uvee35/news-project/assets/151088688/464b14b6-4ffe-459d-981a-b5d270358f6a)
+
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -21,12 +27,6 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository to your local machine or download the source code.
 2. Open the `index.html` file in your browser to start using the application.
 3. No additional installation is required as the project uses CDN links for Bootstrap.
-
-## Mock- Up
-
-
-![New York Times Article Search](https://github.com/uvee35/news-project/assets/151088688/464b14b6-4ffe-459d-981a-b5d270358f6a)
-
 
 ## Usage
 
