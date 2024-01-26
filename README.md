@@ -11,6 +11,7 @@ This project is a simple web application that allows users to search for article
 
 ## Mock- Up
 https://uvee35.github.io/news-project/
+<img width="2224" alt="Screenshot 2024-01-26 at 02 26 09" src="https://github.com/uvee35/news-project/assets/151088688/5c0c697c-2312-47cd-ba65-1f641800e43b">
 
 ![New York Times Article Search](https://github.com/uvee35/news-project/assets/151088688/464b14b6-4ffe-459d-981a-b5d270358f6a)
 
